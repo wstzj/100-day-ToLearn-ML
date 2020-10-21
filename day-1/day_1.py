@@ -22,7 +22,6 @@ onehotencoder = OneHotEncoder()
 
 abc = np.array(X[:, 0])
 abc = abc.reshape(-1, 1)
-print(abc)
 
 abc = onehotencoder.fit_transform(abc).toarray()
 
